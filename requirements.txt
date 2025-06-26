@@ -1,0 +1,10 @@
+requests
+Flask
+Flask-SQLAlchemy
+Flask-WTF
+werkzeug
+email-validator
+SQLAlchemy
+Flask-Chartjs
+gunicorn
+psycopg2-binary

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<div class="text-center">
+    <h2>Welcome to the Health Tracker Dashboard</h2>
+    <p class="lead">Track your health data and monitor your progress.</p>
+    <a href="{{ url_for('form') }}" class="btn btn-primary">Start Tracking Your Health</a>
+</div>
+{% endblock %}
